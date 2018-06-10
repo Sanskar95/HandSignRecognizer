@@ -488,3 +488,5 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate=0.0001,
 
         return parameters
 
+parameters = model(X_train, Y_train, X_test, Y_test)
+

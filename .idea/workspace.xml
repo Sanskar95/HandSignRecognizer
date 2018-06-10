@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94085b9b-f843-427d-a5a3-c9a74b7a08ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TensorFlowModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlowModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlowModel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +17,22 @@
       <file leaf-file-name="TensorFlowModel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TensorFlowModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1717">
-              <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+            <state relative-caret-position="198">
+              <caret line="492" lean-forward="true" selection-start-line="492" selection-end-line="492" />
               <folding>
                 <element signature="e#935#946#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomImageDeterminationFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomImageDeterminationFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,7 +41,7 @@
       <file leaf-file-name="tf_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tf_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="-27">
               <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -58,6 +71,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>load</find>
+      <find>num_e</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,6 +80,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/CustomImageDeterminationFile.py" />
         <option value="$PROJECT_DIR$/tf_utils.py" />
         <option value="$PROJECT_DIR$/TensorFlowModel.py" />
       </list>
@@ -95,6 +110,11 @@
             </path>
             <path>
               <item name="HandSignRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandSignRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandSignRecognizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -105,6 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/git/HandSignRecognizer/tf_utils.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -129,7 +150,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TensorFlowModel">
+  <component name="RunManager" selected="Python.CustomImageDeterminationFile">
+    <configuration name="CustomImageDeterminationFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HandSignRecognizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CustomImageDeterminationFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="TensorFlowModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HandSignRecognizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +208,11 @@
     <list>
       <item itemvalue="Python.tf_utils" />
       <item itemvalue="Python.TensorFlowModel" />
+      <item itemvalue="Python.CustomImageDeterminationFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CustomImageDeterminationFile" />
         <item itemvalue="Python.TensorFlowModel" />
         <item itemvalue="Python.tf_utils" />
       </list>
@@ -198,12 +239,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45826772" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32913387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" weight="0.4976378" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -216,6 +257,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>plt.imshow(image)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>my_image</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/Tensorflow+Tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -226,7 +286,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tf_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="-27">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -234,10 +294,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CustomImageDeterminationFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlowModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1717">
-          <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+        <state relative-caret-position="198">
+          <caret line="492" lean-forward="true" selection-start-line="492" selection-end-line="492" />
           <folding>
             <element signature="e#935#946#0" expanded="true" />
           </folding>
